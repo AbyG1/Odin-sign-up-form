@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family:norsebold ;
+    src: url(./assets/Norse-Bold.woff2);
+}
+
+body{
+    font-family: norsebold;
+}
+
+.container{
+    display:flex;
+    justify-content:start;
+    align-items: start;
+}
+
+
+.cover{
+    background-image: url(./assets/coverimg.jpg); 
+    background-size: contain;
+    height:100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width:35%;  
+    
+}
+
+.cover > div {
+    height: 100px;
+    display:flex;
+    opacity: 1;
+    margin-top:100px;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo{
+  width:100px;
+}
+
+.logo + p{
+    font-size: 100px;
+    color:white;
+    font-weight: bolder;
+
+}
+
+
+.content{
+    
+}
